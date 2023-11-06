@@ -1,0 +1,51 @@
+/* Font Family */
+$font-family: 'Basier Circle', sans-serif;
+$font-family-sub: 'Rumeur', sans-serif;
+
+/* Color Text */
+$color-text: #353532;
+
+/* Still Variants */
+$xxxs : 374;
+$xxs : 424;
+$xs : 575;
+$sm : 767;
+$md : 991;
+$lg : 1199;
+$xlg : 1441;
+$xxlg : 1681;
+
+/* Max Media Query */
+@mixin max($breakpoint) {
+	@media (max-width: $breakpoint + px) {
+		@content;
+	}
+}
+
+/* Min Media Query */
+@mixin min($breakpoint) {
+	@media (min-width: ($breakpoint + 1) + px) {
+		@content;
+	}
+}
+
+/* Element Center */
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: $color-text;
+}
+
+a {
+    color: $color-text;
+
+    &:active,
+    &:hover {
+        color: $color-text;
+        text-decoration: none;
+    }
+}

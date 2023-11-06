@@ -1,0 +1,17 @@
+/* Font Family */
+/* Color Text */
+/* Still Variants */
+/* Max Media Query */
+/* Min Media Query */
+/* Element Center */
+a {
+  color: #353532;
+}
+
+a {
+  color: #353532;
+}
+a:active, a:hover {
+  color: #353532;
+  text-decoration: none;
+}/*# sourceMappingURL=mixin.css.map */
